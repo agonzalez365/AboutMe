@@ -1,0 +1,10 @@
+#page img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#page h1, #page p{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
