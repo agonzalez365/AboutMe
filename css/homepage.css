@@ -6,5 +6,10 @@
 #page h1, #page p{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 1em;
+}
+
+.section{
+    display: inline-grid;
+    grid-template-columns: 1fr;
 }
