@@ -10,7 +10,7 @@
 }
 #quick-nav a{
     display: flex;
-    color: black;
+    color: rgb(71, 71, 179);
     text-decoration: none;
 }
 #quick-nav a:hover{
@@ -36,7 +36,7 @@
     max-height: 100%;
     width: fit-content;
     height: fit-content;
-    padding: 2em;
+    padding: 1em;
 }
 #page p{
     padding: 1em;
@@ -46,4 +46,15 @@
 #page h2{
     display: flex;
     justify-content: center;
+}
+
+.interest a{
+    display: flex;
+    justify-content: center;
+    color: rgb(71, 71, 179);
+    text-decoration: none;
+}
+.interest a:hover{
+    color: #FFFFFF;
+    transition: all 300ms;
 }

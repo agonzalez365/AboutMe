@@ -9,7 +9,16 @@
     padding: 1em;
 }
 
-.section{
-    display: inline-grid;
-    grid-template-columns: 1fr;
+.sections{
+    display: flex;
 }
+.sections h2{
+    display: flex;
+    justify-content: center;
+}
+.sections > *{
+    flex-basis: 100%;
+}
+/* .sections img{
+    border-radius: 50%;
+} */
