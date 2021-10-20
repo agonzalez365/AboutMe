@@ -56,3 +56,17 @@
     color: #FFFFFF;
     transition: all 300ms;
 }
+
+a.reference {
+    display: block;
+    text-align: right;
+    margin-top: -2em;
+    margin-right: 1em;
+    color: #ffffff73;
+    text-decoration: underline;
+}
+
+a.reference:hover{
+    color: #FFFFFF;
+    transition: all 300ms;
+}
