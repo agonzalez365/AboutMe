@@ -1,6 +1,12 @@
 #page img{
     max-width: 100%;
     max-height: 100%;
+    object-fit: cover;
+}
+.sections img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
 }
 
 #page h1, #page p{
@@ -19,6 +25,3 @@
 .sections > *{
     flex-basis: 100%;
 }
-/* .sections img{
-    border-radius: 50%;
-} */

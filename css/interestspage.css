@@ -1,5 +1,6 @@
+/* grid */
 .interest{
-    display: inline-grid;
+    display: grid;
     grid-template-columns: 3fr 2fr;
     align-items: center;
 }
@@ -26,9 +27,6 @@
 #quick-nav ul li{
     padding: 1em;
 }
-/* #quick-nav img{
-    border-radius: 50%;
-} */
 
 /* interests sections */
 #page img{
@@ -36,7 +34,7 @@
     max-height: 100%;
     width: fit-content;
     height: fit-content;
-    padding: 1em;
+    object-fit: cover;
 }
 #page p{
     padding: 1em;
